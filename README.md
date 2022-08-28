@@ -1,3 +1,3 @@
 # Survey-Form
-HTML/CSS trials collaborative project1
-Survey Form
+
+I've built a survey Form for a Spa, using HTML and CSS code practiced from freeCodeCamp. The Code is written using VSC editor...

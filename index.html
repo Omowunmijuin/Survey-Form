@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>technical Survey Form</title>
+  </head>
+  <body>
+    <h1 id="title">technical Survey Form</h1>
+    <p id="description">Thank you for taking a minute to help us improve</p>
+    <form action="survey" id="survey-form">
+      <section>
+        <label id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Your name" required /><br />
+        <label id="email-label">Email</label>
+        <input type="text" id="email" placeholder="Your email" required /><br />
+        <label id="number-label">Age <em>(optional)</em></label>
+        <input
+          type="number"
+          id="number"
+          min="1"
+          max="10"
+          placeholder="Your age"
+        /><br />
+      </section>
+
+      <section>
+        <label class="edit"
+          >What would best discribe your current occupation?</label
+        ><br />
+        <select id="dropdown">
+          <option value="name">Select an option</option>
+          <option value="">Student</option>
+          <option value="">Full time job</option>
+          <option value="">Rather not to say</option></select
+        ><br />
+      </section>
+
+      <section>
+        <label class="edit">How likely would you recommend our services</label>
+        <br />
+        <input type="radio" name="name" value="name" /><br />
+        <label id="button">Strongly Would</label>
+        <input type="radio" name="name" value="name" /><br />
+        <label id="button">Maybe</label>
+        <input type="radio" name="name" value="name" /><br />
+        <label id="button">Definitely not</label><br />
+      </section>
+
+      <section>
+        <label class="edit"
+          >What would you like us to improve?
+          <em>(Check all that apply)</em></label
+        ><br />
+        <input
+          type="checkbox"
+          name="Front-end Project"
+          value="Front-end Project"
+        /><label id="checkbox">Front-end Project</label><br />
+        <input
+          type="checkbox"
+          name="Back-end Project"
+          value="Back-end Project"
+        /><label id="checkbox">Backt-end Project</label><br />
+        <input
+          type="checkbox"
+          name="Full-stack Project"
+          value="Full-stack Project"
+        /><label id="checkbox">Full-stack Project</label><br />
+      </section>
+
+      <section>
+        <label class="edit">Additional comments or suggestions?</label>
+        <textarea
+          name="blog"
+          id="blog"
+          cols="30"
+          rows="10"
+          placeholder="Enter your suggestions here..."
+        ></textarea>
+      </section>
+
+      <section>
+        <input type="submit" value="submit" />
+      </section>
+    </form>
+  </body>
+</html>
